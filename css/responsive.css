@@ -1,0 +1,195 @@
+/* ===================================================
+Responsive section start for tablet and mobile device
+======================================================*/
+/* mobile devicess */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+.main-content{
+    width:95%;
+    margin: 0 auto; 
+}
+    /* First banner section start */
+.banner-content {
+    display: flex;
+    flex-direction: column;
+} 
+.banner-text-content h1{
+    font-size: 20px;
+    text-align: center;
+}
+.banner-text-content .btn {
+	padding: 10px 5px;
+	width: 198%;
+	font-size: 15px;
+	border-radius: 7px;
+}
+.banner-img-content {
+    padding-top: 50px;
+    margin: auto;
+}
+.banner-img-content img{
+    display: inline-block;
+    width: 235px;
+}
+/* =====First banner section end ===== */
+/* =====second cards section start===== */
+.cards-area {
+    margin-top: 70px;
+}
+.card-wraper {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info-content-box {
+    width:100%;
+    height: 305px;
+    background-color: white;
+}
+.cards-area .info-content-box .match-btn{
+    padding: 16px 52px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+.cards-area .info-content-box .group-btn {
+	padding: 15px 82px;
+	font-size: 16px;
+    border: 1px solid black;
+}
+.cards-area .info-content-box .active {
+	padding: 15px 101px;
+	font-size: 16px;
+}
+.cards-content {
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+}
+/* =====second cards section end ===== */
+/*  footer section start  */
+.footer-area {
+    margin-top: 70px;
+}
+.footer-menu ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu ul li {
+    margin-bottom: 28px;
+}
+.footer-menu ul li a {
+    font-size: 13spx;
+}
+.social-section i {
+  font-size: 20px;
+  padding-left: 12px;
+  padding-bottom: 38px;
+}
+
+}
+
+
+/* ====tablet devices==== */
+
+@media only screen and (min-width: 481px) and (max-width: 768px){
+
+
+    .main-content{
+        width:92%;
+        margin: 0 auto; 
+    }
+        /* First banner section start */
+    .banner-text-content {
+        padding-top: 74px;
+        padding-left: 60px;
+    }
+    .banner-text-content h1{
+        font-size: 36px;
+        line-height: 55px;
+    }
+    .banner-text-content p{
+        font-size: 10px;
+        line-height: 18px;
+        padding-top: 20px;
+        padding-bottom: 24px;
+    }
+  
+    .banner-text-content .btn {
+        padding: 17px 19px;
+        width: 50%;
+        color: whitesmoke;
+        font-size: 16px;
+    }
+    .banner-img-content {
+        padding-top: 109px;
+    }
+    .banner-img-content img{
+        display: inline-block;
+        width: 100%;
+    }
+    /* =====First banner section end ===== */
+    /* =====second cards section start===== */
+    .cards-area {
+        margin-top: 70px;
+    }
+    .card-wraper {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info-content-box {
+        width:100%;
+        flex-direction: row;
+        background-color: white
+    }
+    .cards-area .info-content-box .match-btn{
+        padding: 16px 20px;
+        font-size: 15px;
+        border: 1px solid black;
+    }
+    .cards-area .info-content-box .group-btn {
+        padding: 16px 56px;
+        font-size: 15px;
+        border: 1px solid black;
+    }
+    .cards-area .info-content-box .active {
+        padding: 16px 76px;
+        font-size: 15px;
+    }
+    .cards-content {
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cards-area .btn-area {
+        display: flex;
+        justify-content: center;
+    }
+    .btn-area  button {
+        display: block;
+    }
+    /* =====second cards section end ===== */
+    /*  footer section start  */
+    .footer-area {
+        margin-top: 70px;
+    }
+    .footer-menu {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .footer-menu ul {
+        display: flex;
+        flex-direction: row;
+    }
+    .footer-menu ul li {
+        margin-bottom: 28px;
+    }
+    .footer-menu ul li a {
+        font-size: 12px;
+    }
+    .social-section i {
+      font-size: 20px;
+      padding-left: 12px;
+      padding-bottom: 38px;
+    }
+}
