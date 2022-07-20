@@ -13,15 +13,32 @@ Responsive section start for tablet and mobile device
     display: flex;
     flex-direction: column;
 } 
-.banner-text-content h1{
-    font-size: 20px;
-    text-align: center;
+.banner-text-content {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 60px;
 }
+.banner-text-content h1{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 50px;
+    line-height: 45px;
+}
+.banner-text-content p{
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+    padding-right: 39px;
+}
+
 .banner-text-content .btn {
-	padding: 10px 5px;
-	width: 198%;
+	padding: 10px 18px;
+	width: 40%;
 	font-size: 15px;
 	border-radius: 7px;
+    margin-top: 40px;
+    margin-left: 68px;
 }
 .banner-img-content {
     padding-top: 50px;
@@ -62,6 +79,7 @@ Responsive section start for tablet and mobile device
 	font-size: 16px;
 }
 .cards-content {
+    width: 100%;
     grid-template-columns: repeat(1,1fr);
     grid-gap: 20px;
 }
